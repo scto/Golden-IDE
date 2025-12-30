@@ -5,34 +5,16 @@
  * You should have received a copy of the GNU General Public License along with Golden IDE. If not, see <https://www.gnu.org/licenses/>.
  */
 
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id("com.android.library")
-    id("org.jetbrains.kotlin.android")
-}
-android {
-    namespace = "dev.pranav.navigation"
-    compileSdk = 36
-
-    defaultConfig {
-        minSdk = 26
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = true
-        }
-    }
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
-    }
+    id("com.android.application") version "8.10.1" apply false
+    id("com.android.library") version "8.10.1" apply false
+    id("org.jetbrains.kotlin.android") version "2.1.21" apply false
+    id("org.jetbrains.kotlin.jvm") version "2.1.21" apply false
 }
 
-dependencies {
-    implementation("com.github.scto.kotlinc-android:kotlinc-android:fce2462f00")
+buildscript {
+    dependencies {
+        classpath("com.google.gms:google-services:4.4.2")
+    }
 }

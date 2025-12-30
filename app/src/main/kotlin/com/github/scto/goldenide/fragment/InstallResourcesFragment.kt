@@ -24,7 +24,7 @@ import com.github.scto.goldenide.util.ResourceUtil
 
 class InstallResourcesFragment : BaseBindingFragment<InstallResourcesFragmentBinding>() {
 
-    val rawUrl = "https://github.com/Cosmic-Ide/binaries/raw/main/"
+    val rawUrl = "https://github.com/Golden-IDE/binaries/raw/main/"
     override fun getViewBinding() = InstallResourcesFragmentBinding.inflate(layoutInflater)
 
     @SuppressLint("SetTextI18n")

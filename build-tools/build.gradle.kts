@@ -9,8 +9,9 @@ plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
 }
+
 android {
-    namespace = "com.github.scto.goldenide.completion.java"
+    namespace = "com.github.scto.goldenide.build"
     compileSdk = 36
 
     defaultConfig {
@@ -45,15 +46,15 @@ android {
         jvmTarget = JavaVersion.VERSION_17.toString()
     }
 }
+
 dependencies {
-    implementation("com.github.scto.kotlinc-android:kotlinc-android:fce2462f00")
-    implementation("com.github.javaparser:javaparser-core:3.26.4")
-    implementation("com.github.javaparser:javaparser-symbol-solver-core:3.25.9") {
-        exclude(group = "com.google.guava", module = "guava")
-    }
-    implementation("org.javassist:javassist:3.30.2-GA")
-    implementation("io.github.itsaky:nb-javac-android:17.0.0.3")
-    implementation(projects.feature.project)
     implementation(projects.common)
+    implementation(projects.feature.project)
     implementation(projects.util)
+    implementation(projects.feature.javaCompletion)
+    implementation("com.github.scto.kotlinc-android:kotlinc-android:fce2462f00")
+    implementation("io.github.Rosemoe.sora-editor:editor:0.23.5")
+    implementation("io.github.itsaky:nb-javac-android:17.0.0.3")
+    implementation("com.google.guava:guava:33.4.8-android")
+    implementation("com.android.tools:r8:8.9.35")
 }

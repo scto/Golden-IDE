@@ -157,7 +157,7 @@ dependencies {
     implementation("com.android.tools.smali:smali-dexlib2:3.0.9")
 
     //noinspection GradleDependency
-    implementation("com.github.Cosmic-Ide:DependencyResolver:6e8b426647")
+    implementation("com.github.scto:DependencyResolver:6e8b426647")
     implementation("com.google.android.material:material:1.14.0-alpha01")
     implementation("com.google.code.gson:gson:2.13.1")
 
@@ -200,7 +200,7 @@ dependencies {
     implementation(projects.feature.aliuhook)
     implementation("de.maxr1998:modernandroidpreferences:2.4.0-beta2")
 
-    implementation("com.github.Cosmic-Ide.kotlinc-android:kotlinc-android:fce2462f00")
+    implementation("com.github.scto.kotlinc-android:kotlinc-android:fce2462f00")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
     implementation("org.lsposed.hiddenapibypass:hiddenapibypass:6.1")
     implementation("org.slf4j:slf4j-simple:2.1.0-alpha1")

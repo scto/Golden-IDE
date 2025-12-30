@@ -4,9 +4,9 @@
 
 # Golden IDE
 
-[![License](https://img.shields.io/github/license/Cosmic-Ide/Cosmic-Ide)](https://github.com/Cosmic-Ide/Cosmic-Ide/blob/main/LICENSE)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/94a4082a551c496cae031bcdb6f2040d)](https://codacy.com/gh/Cosmic-Ide/Cosmic-Ide/dashboard)
-[![Total downloads](https://img.shields.io/github/downloads/Cosmic-Ide/Cosmic-Ide/total)](https://github.com/Cosmic-Ide/Cosmic-Ide/releases)
+[![License](https://img.shields.io/github/license/Golden-IDE/Golden-IDE)](https://github.com/Golden-IDE/Golden-IDE/blob/main/LICENSE)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/94a4082a551c496cae031bcdb6f2040d)](https://codacy.com/gh/Golden-IDE/Golden-IDE/dashboard)
+[![Total downloads](https://img.shields.io/github/downloads/Golden-IDE/Golden-IDE/total)](https://github.com/Golden-IDE/Golden-IDE/releases)
 [![Discord](https://img.shields.io/discord/867985135931383809)](https://discord.gg/8Gu6YCq2eS)
 [![Telegram](https://img.shields.io/badge/Telegram-join-blue)](https://t.me/goldenide)
 [![F-Droid (including pre-releases)](https://img.shields.io/f-droid/v/com.github.scto.goldenide)](https://f-droid.org/packages/com.github.scto.goldenide)
@@ -26,16 +26,16 @@ Golden IDE is a powerful and feature-rich IDE for JVM development on Android. It
 
 <p align="center">
 
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.png">
-<img width="125" height="250" src="https://raw.githubusercontent.com/Cosmic-Ide/Cosmic-Ide/main/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/7.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/8.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/9.png">
+<img width="125" height="250" src="https://raw.githubusercontent.com/Golden-IDE/Golden-IDE/main/fastlane/metadata/android/en-US/images/phoneScreenshots/10.png">
 
 </p>
 
@@ -43,7 +43,7 @@ Golden IDE is a powerful and feature-rich IDE for JVM development on Android. It
 ## Installation
 
 Currently, Golden IDE is in active development. You can download the latest debug app build
-from [here](https://nightly.link/Cosmic-Ide/Cosmic-IDE/workflows/android/main/app-universal.zip).
+from [here](https://nightly.link/Golden-IDE/Cosmic-IDE/workflows/android/main/app-universal.zip).
 
 If you find any bugs, please report them on our [Discord server](https://discord.gg/8Gu6YCq2eS) or open an issue on GitHub.
 
@@ -105,7 +105,7 @@ We would like to thank the following projects and their maintainers for their wo
 
 ## Contributions
 
-[![Contributors](https://contrib.rocks/image?repo=Cosmic-Ide/Cosmic-IDE)](https://github.com/Cosmic-Ide/Cosmic-IDE/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Golden-IDE/Cosmic-IDE)](https://github.com/Golden-IDE/Cosmic-IDE/graphs/contributors)
 
 ## License
 
