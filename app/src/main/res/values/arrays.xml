@@ -1,0 +1,52 @@
+<!--
+  ~ This file is part of Golden IDE.
+  ~ Golden IDE is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+  ~ Golden IDE is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  ~ You should have received a copy of the GNU General Public License along with Golden IDE. If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string-array name="java_version_entries">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+
+    <string-array name="gjf_options">
+        <item>--fix-imports-only</item>
+        <item>--skip-sorting-imports</item>
+        <item>--skip-removing-unused-imports</item>
+        <item>--skip-reflowing-long-strings</item>
+        <item>--skip-javadoc-formatting</item>
+    </string-array>
+
+    <string-array name="gjf_styles">
+        <item>aosp</item>
+        <item>google</item>
+    </string-array>
+
+    <string-array name="ktfmt_styles">
+        <item>dropbox</item>
+        <item>google</item>
+        <item>kotlinlang</item>
+    </string-array>
+
+    <string-array name="app_theme_entries">
+        <item>@string/pref_theme_auto</item>
+        <item>@string/pref_theme_light</item>
+        <item>@string/pref_theme_dark</item>
+    </string-array>
+
+    <string-array name="app_theme_entry_values">
+        <item>auto</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+</resources>

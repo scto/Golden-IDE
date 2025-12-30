@@ -1,0 +1,22 @@
+{
+  "languages": [
+    {
+      "grammar": "textmate/kotlin/syntaxes/kotlin.tmLanguage",
+      "name": "kotlin",
+      "scopeName": "source.kotlin",
+      "languageConfiguration": "textmate/kotlin/language-configuration.json"
+    },
+    {
+      "grammar": "textmate/smali/syntaxes/smali.tmLanguage.json",
+      "name": "smali",
+      "scopeName": "source.smali",
+      "languageConfiguration": "textmate/smali/language-configuration.json"
+    },
+    {
+      "grammar": "textmate/buildLog/syntaxes/buildLog.tmLanguage.json",
+      "name": "build",
+      "scopeName": "source.build",
+      "languageConfiguration": "textmate/buildLog/language-configuration.json"
+    }
+  ]
+}

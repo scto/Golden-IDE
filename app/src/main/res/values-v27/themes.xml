@@ -1,0 +1,15 @@
+<!--
+  ~ This file is part of Golden IDE.
+  ~ Golden IDE is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+  ~ Golden IDE is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  ~ You should have received a copy of the GNU General Public License along with Golden IDE. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.GoldenIde.BaseV27" parent="Theme.GoldenIde.Base">
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">?attr/isLightTheme</item>
+    </style>
+
+    <style name="Theme.GoldenIde" parent="Theme.GoldenIde.BaseV27" />
+</resources>

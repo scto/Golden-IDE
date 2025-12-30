@@ -1,0 +1,23 @@
+/*
+ * This file is part of Golden IDE.
+ * Golden IDE is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+ * Golden IDE is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ * You should have received a copy of the GNU General Public License along with Golden IDE. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package com.github.scto.goldenide.startup
+
+import android.content.Context
+import androidx.startup.Initializer
+import com.github.scto.goldenide.common.Prefs
+import com.github.scto.goldenide.rewrite.util.FileUtil
+
+class PreferencesInitializer : Initializer<Unit> {
+
+    override fun create(context: Context) {
+        FileUtil.init(context.getExternalFilesDir(null)!!)
+        Prefs.init(context.applicationContext)
+    }
+
+    override fun dependencies(): List<Class<out Initializer<*>>> = emptyList()
+}
