@@ -135,6 +135,7 @@ fun downloadBootstrap(arch: String, expectedChecksum: String, version: String) {
     }
 }
 
+/*
 tasks.named("clean") {
     doLast {
         val tree = fileTree(File(projectDir, "src/main/cpp"))
@@ -142,6 +143,7 @@ tasks.named("clean") {
         tree.forEach { it.delete() }
     }
 }
+*/
 
 fun downloadBootstraps() {
     val version = "2024.10.06-r1+apt-android-7"
