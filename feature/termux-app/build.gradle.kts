@@ -104,8 +104,8 @@ fun downloadBootstrap(arch: String, expectedChecksum: String, version: String) {
         }
     }
 
-    val remoteUrl =
-        "https://github.com/Cosmic-IDE/terminal-packages/releases/download/bootstrap-$version/bootstrap-$arch.zip"
+    val remoteUrl = 
+        "https://github.com/termux/termux-packages/releases/download/bootstrap-$version/bootstrap-$arch.zip"
     logger.quiet("Downloading $remoteUrl...")
 
     file.parentFile.mkdirs()
@@ -144,25 +144,25 @@ tasks.named("clean") {
 }
 
 fun downloadBootstraps() {
-    val version = "2024.06.10-r1+apt-android-7"
+    val version = "2024.10.06-r1+apt-android-7"
     downloadBootstrap(
         "aarch64",
-        "d6f62e4711e8dbde8f10e9408a12c27d38ec89308d659acf9b7f041d75718779",
+        "f34cefeb83726ca97d913d8ae5b17cdd",
         version
     )
     downloadBootstrap(
         "arm",
-        "8f5f8957ab60d2d2f8e018a4facb58469389c19a3733f352763e616e0bb1c8c6",
+        "3860fdc5dc29d23c61e7cdbcde143f12",
         version
     )
     downloadBootstrap(
         "i686",
-        "b836e380a0d1200c12e15769852718688e5a302dde81076d2e2148a82beaee90",
+        "2b638e1b0e86249a47de1a376a964c0c",
         version
     )
     downloadBootstrap(
         "x86_64",
-        "b511ee9d16192da3443ec5d4c8dbd66b265997b4ad885b78d75207cac6796603",
+        "a9adbabd91eb35e7f3d1de62767e18e9",
         version
     )
 }

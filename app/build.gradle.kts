@@ -77,7 +77,7 @@ android {
     }
 
     configurations.all {
-        resolutionStrategy.force("com.squareup.okhttp3:okhttp:4.12.0")
+        resolutionStrategy.force("com.squareup.okhttp3:okhttp:5.3.2")
         resolutionStrategy.force("androidx.window:window:1.0.0-alpha09")
     }
 
@@ -147,48 +147,48 @@ fun getGitCommit(): String {
 }
 
 configurations.all {
-    resolutionStrategy.force("com.squareup.okhttp3:okhttp:4.12.0")
+    resolutionStrategy.force("com.squareup.okhttp3:okhttp:5.3.2")
     resolutionStrategy.force("com.google.guava:guava:33.4.8-android")
     exclude(group = "commons-logging", module = "commons-logging")
 }
 
 dependencies {
-    implementation("com.android.tools:r8:8.9.35")
+    implementation("com.android.tools:r8:8.13.17")
     implementation("com.android.tools.smali:smali-dexlib2:3.0.9")
 
     //noinspection GradleDependency
     implementation("com.github.Cosmic-Ide:DependencyResolver:6e8b426647")
-    implementation("com.google.android.material:material:1.14.0-alpha01")
-    implementation("com.google.code.gson:gson:2.13.1")
+    implementation("com.google.android.material:material:1.14.0-alpha08")
+    implementation("com.google.code.gson:gson:2.13.2")
 
     implementation("com.github.haroldadmin:WhatTheStack:1.0.0-alpha04")
 
     implementation("androidx.appcompat:appcompat:1.7.1")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
-    implementation("androidx.core:core-ktx:1.16.0")
-    implementation("androidx.core:core-splashscreen:1.1.0-rc01")
+    implementation("androidx.core:core-ktx:1.17.0")
+    implementation("androidx.core:core-splashscreen:1.2.0")
     implementation("androidx.documentfile:documentfile:1.1.0")
-    implementation("androidx.fragment:fragment-ktx:1.8.8")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.1")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1")
+    implementation("androidx.fragment:fragment-ktx:1.8.9")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.10.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-beta01")
     implementation("androidx.viewpager2:viewpager2:1.1.0")
-    implementation("androidx.activity:activity-ktx:1.10.1")
+    implementation("androidx.activity:activity-ktx:1.12.2")
     implementation("androidx.startup:startup-runtime:1.2.0")
 
-    val editorVersion = "0.23.5"
+    val editorVersion = "0.23.6"
     //noinspection GradleDependency
     implementation("io.github.Rosemoe.sora-editor:editor:$editorVersion")
     //noinspection GradleDependency
     implementation("io.github.Rosemoe.sora-editor:language-treesitter:$editorVersion")
     implementation("io.github.Rosemoe.sora-editor:language-textmate:$editorVersion")
-    implementation("com.itsaky.androidide.treesitter:android-tree-sitter:4.3.1")
-    implementation("com.itsaky.androidide.treesitter:tree-sitter-java:4.3.1")
-    implementation("com.itsaky.androidide.treesitter:tree-sitter-kotlin:4.3.1")
+    implementation("com.itsaky.androidide.treesitter:android-tree-sitter:4.3.2")
+    implementation("com.itsaky.androidide.treesitter:tree-sitter-java:4.3.2")
+    implementation("com.itsaky.androidide.treesitter:tree-sitter-kotlin:4.3.2")
 
     implementation("io.github.itsaky:nb-javac-android:17.0.0.3")
 
-    implementation("org.eclipse.jgit:org.eclipse.jgit:5.13.2.202306221912-r")
+    implementation("org.eclipse.jgit:org.eclipse.jgit:7.5.0.202512021534-r")
     implementation("com.github.sya-ri:kgit:1.1.0")
 
     // markwon
@@ -211,7 +211,7 @@ dependencies {
     // Add this line if you want to support Shizuku
     implementation("dev.rikka.shizuku:provider:$shizukuVersion")
 
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:okhttp:5.3.2")
 
     implementation(projects.buildTools)
     implementation(projects.common)
