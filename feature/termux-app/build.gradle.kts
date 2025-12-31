@@ -147,22 +147,22 @@ fun downloadBootstraps() {
     val version = "2024.10.06-r1+apt-android-7"
     downloadBootstrap(
         "aarch64",
-        "f34cefeb83726ca97d913d8ae5b17cdd",
+        "fbc07f9a7f17ca56acd91e5d7aa48e4c53c8d3548f7e06ece93840590ac34315",
         version
     )
     downloadBootstrap(
         "arm",
-        "3860fdc5dc29d23c61e7cdbcde143f12",
+        "4b4eabef861bb6c0203209adfa8f0e1459e7c3e314f46caf0dd5e03517e7fbb3",
         version
     )
     downloadBootstrap(
         "i686",
-        "2b638e1b0e86249a47de1a376a964c0c",
+        "11c8c0533158c0a04d2502319e143e173d179d6e00e02e09d84dadddfefca6e9",
         version
     )
     downloadBootstrap(
         "x86_64",
-        "a9adbabd91eb35e7f3d1de62767e18e9",
+        "e7d7ec2278a1105551537a96f814c696d5f8c4df9532497e64f2f44dbb8409ba",
         version
     )
 }
