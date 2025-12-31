@@ -35,6 +35,6 @@ android {
 
 dependencies {
     implementation(projects.feature.formatter.googleJavaFormat)
-    implementation("com.github.scto.kotlinc-android:kotlinc-android:fce2462f00")
+    implementation("com.github.Cosmic-Ide.kotlinc-android:kotlinc-android:fce2462f00")
     implementation("com.google.guava:guava:33.4.8-android")
 }

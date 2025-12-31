@@ -24,7 +24,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CosmicIDE"
+rootProject.name = "GoldenIDE"
 
 include(":app")
 include(":build-tools")
@@ -43,3 +43,5 @@ include(":datadir")
 include(":feature:aliuhook")
 include(":feature:appwrite")
 include(":feature:genai")
+include(":feature:termux-app")
+include(":feature:termux-shared)

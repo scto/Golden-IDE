@@ -31,7 +31,7 @@ android {
 dependencies {
     annotationProcessor("com.google.auto.value:auto-value:1.11.0")
 
-    implementation("com.github.scto.kotlinc-android:kotlinc-android:fce2462f00")
+    implementation("com.github.Cosmic-Ide.kotlinc-android:kotlinc-android:fce2462f00")
     implementation("com.google.auto.value:auto-value-annotations:1.11.0")
     implementation("io.github.itsaky:nb-javac-android:17.0.0.3")
     implementation("androidx.annotation:annotation:1.9.1")

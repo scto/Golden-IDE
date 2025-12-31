@@ -7,54 +7,54 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.11.0/d1fd0e74d20e922145c3fede3f05e246bb6be281/auto-value-1.11.0.jar" />
         </processorPath>
-        <module name="CosmicIDE.feature.genai.main" />
-        <module name="CosmicIDE.feature.formatter.google-java-format.main" />
+        <module name="GoldenIDE.feature.genai.main" />
+        <module name="GoldenIDE.feature.formatter.google-java-format.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="Cosmic_IDE_Rewrite.app" target="17" />
-      <module name="CosmicIDE-Rewrite.app" target="20" />
-      <module name="CosmicIDE-Rewrite.bardapi" target="17" />
-      <module name="CosmicIDE-Rewrite.bardapi.main" target="17" />
-      <module name="CosmicIDE-Rewrite.bardapi.test" target="17" />
-      <module name="CosmicIDE-Rewrite.build-tools" target="20" />
-      <module name="CosmicIDE-Rewrite.common" target="20" />
-      <module name="CosmicIDE-Rewrite.completion.java" target="17" />
-      <module name="CosmicIDE-Rewrite.completion.kotlin" target="17" />
-      <module name="CosmicIDE-Rewrite.datadir" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.aliuhook" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.code-navigation" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.completion.java" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.completion.kotlin" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.formatter.ktfmt" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.java-completion" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.jaxp" target="17" />
-      <module name="CosmicIDE-Rewrite.feature.jaxp.main" target="17" />
-      <module name="CosmicIDE-Rewrite.feature.jaxp.test" target="17" />
-      <module name="CosmicIDE-Rewrite.feature.rish" target="20" />
-      <module name="CosmicIDE-Rewrite.feature.TreeView" target="20" />
-      <module name="CosmicIDE-Rewrite.java-completion" target="17" />
-      <module name="CosmicIDE-Rewrite.java-completion.main" target="17" />
-      <module name="CosmicIDE-Rewrite.java-completion.test" target="17" />
-      <module name="CosmicIDE-Rewrite.lynx" target="17" />
-      <module name="CosmicIDE-Rewrite.mylibrary" target="20" />
-      <module name="CosmicIDE-Rewrite.plugin" target="17" />
-      <module name="CosmicIDE-Rewrite.plugin.main" target="17" />
-      <module name="CosmicIDE-Rewrite.plugin.test" target="17" />
-      <module name="CosmicIDE-Rewrite.project" target="17" />
-      <module name="CosmicIDE-Rewrite.project.main" target="17" />
-      <module name="CosmicIDE-Rewrite.project.test" target="17" />
-      <module name="CosmicIDE-Rewrite.TreeView" target="17" />
-      <module name="CosmicIDE-Rewrite.util" target="20" />
-      <module name="CosmicIDE-Rewrite.util.test" target="17" />
+      <module name="GoldenIDE-Rewrite.app" target="20" />
+      <module name="GoldenIDE-Rewrite.bardapi" target="17" />
+      <module name="GoldenIDE-Rewrite.bardapi.main" target="17" />
+      <module name="GoldenIDE-Rewrite.bardapi.test" target="17" />
+      <module name="GoldenIDE-Rewrite.build-tools" target="20" />
+      <module name="GoldenIDE-Rewrite.common" target="20" />
+      <module name="GoldenIDE-Rewrite.completion.java" target="17" />
+      <module name="GoldenIDE-Rewrite.completion.kotlin" target="17" />
+      <module name="GoldenIDE-Rewrite.datadir" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.aliuhook" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.code-navigation" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.completion.java" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.completion.kotlin" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.formatter.ktfmt" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.java-completion" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.jaxp" target="17" />
+      <module name="GoldenIDE-Rewrite.feature.jaxp.main" target="17" />
+      <module name="GoldenIDE-Rewrite.feature.jaxp.test" target="17" />
+      <module name="GoldenIDE-Rewrite.feature.rish" target="20" />
+      <module name="GoldenIDE-Rewrite.feature.TreeView" target="20" />
+      <module name="GoldenIDE-Rewrite.java-completion" target="17" />
+      <module name="GoldenIDE-Rewrite.java-completion.main" target="17" />
+      <module name="GoldenIDE-Rewrite.java-completion.test" target="17" />
+      <module name="GoldenIDE-Rewrite.lynx" target="17" />
+      <module name="GoldenIDE-Rewrite.mylibrary" target="20" />
+      <module name="GoldenIDE-Rewrite.plugin" target="17" />
+      <module name="GoldenIDE-Rewrite.plugin.main" target="17" />
+      <module name="GoldenIDE-Rewrite.plugin.test" target="17" />
+      <module name="GoldenIDE-Rewrite.project" target="17" />
+      <module name="GoldenIDE-Rewrite.project.main" target="17" />
+      <module name="GoldenIDE-Rewrite.project.test" target="17" />
+      <module name="GoldenIDE-Rewrite.TreeView" target="17" />
+      <module name="GoldenIDE-Rewrite.util" target="20" />
+      <module name="GoldenIDE-Rewrite.util.test" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="CosmicIDE-Rewrite.feature.formatter.google-java-format.main" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
-      <module name="CosmicIDE.feature.formatter.google-java-format" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
-      <module name="CosmicIDE.feature.formatter.google-java-format.main" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
-      <module name="CosmicIDE.feature.formatter.google-java-format.test" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
+      <module name="GoldenIDE-Rewrite.feature.formatter.google-java-format.main" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
+      <module name="GoldenIDE.feature.formatter.google-java-format" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
+      <module name="GoldenIDE.feature.formatter.google-java-format.main" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
+      <module name="GoldenIDE.feature.formatter.google-java-format.test" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
     </option>
   </component>
 </project>

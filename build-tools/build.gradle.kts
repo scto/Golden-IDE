@@ -52,7 +52,7 @@ dependencies {
     implementation(projects.feature.project)
     implementation(projects.util)
     implementation(projects.feature.javaCompletion)
-    implementation("com.github.scto.kotlinc-android:kotlinc-android:fce2462f00")
+    implementation("com.github.Cosmic-Ide.kotlinc-android:kotlinc-android:fce2462f00")
     implementation("io.github.Rosemoe.sora-editor:editor:0.23.5")
     implementation("io.github.itsaky:nb-javac-android:17.0.0.3")
     implementation("com.google.guava:guava:33.4.8-android")
