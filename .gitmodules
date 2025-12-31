@@ -1,1 +1,3 @@
-
+[submodule "DependencyResolver"]
+	path = DependencyResolver
+	url = https://github.com/scto/DependencyResolver
